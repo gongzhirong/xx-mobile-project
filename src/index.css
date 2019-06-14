@@ -99,12 +99,22 @@ code {
   height: 220px;
 }
 
+.header-carousel-box-two .carousel-a {
+  height: 275px;
+}
+
 .mainEntry {
   width: 100%;
 }
 
+.clearBoth {
+  clear: both;
+}
+
 .mainEntry a img {
   width: 33.333%;
+  display: block;
+  float: left;
 }
 
 .convenient-entry {
@@ -175,4 +185,92 @@ code {
   position: absolute;
   top: .22rem;
   right: .20rem;
+}
+
+.header-carousel-box-two {
+  margin-top: .1rem;
+}
+
+.introduceHeaderBg {
+  border-bottom: 1px solid #d6d6d6;
+  border-top: 1px solid #d6d6d6;
+  margin-top: 0.15rem;
+  padding: 0.61rem 0.15rem 0.1rem;
+  background: url('./images/hosintro.png') no-repeat top #fff;
+  background-size: 100%;
+}
+.introduceHeaderBg p {
+  height: .99rem;
+  width: 100%;
+  color: #666;
+  font-size: .1rem;
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient: vertical;
+}
+
+footer {
+  background: #fff;
+  margin: .15rem 0 0;
+  padding-bottom: .1rem;
+  border-top: 0.04rem solid #000;
+  border-image: url('./images/caitiao.png') 10 0 repeat;
+  text-align: center;
+}
+
+footer img {
+  width: 16%;
+  border-radius: 3px;
+  margin-top: .1rem;
+}
+
+.footer-part-1 {
+  color: #333;
+  font-size: .16rem;
+  line-height: .35rem;
+  padding: 0 .15rem;
+}
+
+.footer-part-2 {
+  font-size: .12rem;
+  color: #32c5bd;
+  padding: 0 .15rem;
+  line-height: .35rem;
+}
+
+.footer-part-3 {
+  color: #999;
+  font-size: .12rem;
+  line-height: .2rem;
+  padding: 0 0.15rem;
+  margin-top: .1rem;
+}
+
+.footer-part-4 {
+  font-size: .17rem;
+  display: block;
+  width: 80%;
+  border-radius: 5px;
+  margin: .05rem auto;
+  line-height: .4rem;
+  border: 1px solid #32c5bd;
+  color: #32c5bd;
+}
+
+.footer-bg {
+  padding-top: .55rem;
+  padding-bottom: .1rem;
+  flex: 0 0 auto;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-bg > span + span {
+  margin-left: 6px;
 }
