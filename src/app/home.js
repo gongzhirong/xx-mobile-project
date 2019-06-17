@@ -3,7 +3,7 @@ import Header from '../components/header'
 import Footer from '../components/footer-bg'
 import { Carousel, WingBlank } from 'antd-mobile';
 
-class Ones extends React.Component {
+class Home extends React.Component {
   state = {
     carouselPartOne: ['1', '2', '3'], // 轮播图图片
     carouselPartTwo: ['1', '2', '3'] // 轮播图图片
@@ -115,4 +115,4 @@ class Ones extends React.Component {
   }
 }
 
-export default Ones
+export default Home
