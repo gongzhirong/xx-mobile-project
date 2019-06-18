@@ -18,7 +18,7 @@ class Home extends React.Component {
     return (
       <div>
         {/* 头部 */}
-        <Header />
+        <Header title="首页" home/>
         {/* 顶部轮播图 */}
         <div className="header-carousel-box">
           <WingBlank>
@@ -103,6 +103,7 @@ class Home extends React.Component {
           <p className="footer-part-1">立白中心</p>
           <p className="footer-part-2">陆居路2号</p>
           <p className="footer-part-3">
+            <span className="iconfont icon-adress f-size-14"></span>
             <span>广东省深圳市龙岗区龙岗大道6082号</span>
           </p>
           <a href="/" className="footer-part-4">

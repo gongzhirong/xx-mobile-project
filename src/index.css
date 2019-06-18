@@ -17,6 +17,8 @@ a {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
   line-height: 1.6;
   margin: 0;
@@ -43,6 +45,7 @@ code {
   box-sizing: border-box;
   font-size: .155rem;
   line-height: 0.38rem;
+  z-index: 99;
 }
 
 .header-left {
@@ -273,4 +276,153 @@ footer img {
 
 .footer-bg > span + span {
   margin-left: 6px;
+}
+
+.login-page .am-tabs-default-bar {
+  background-color: unset !important;
+  width: 80%;
+  margin: 0 auto;
+  font: 400 .14rem/1.5 "Helvetica Neue",Helvetica,STHeiTi,'MicroSoft Yahei',sans-serif;
+}
+
+.login-page-action {
+  color: #586C94;
+}
+
+.login-page .am-tabs-default-bar-tab {
+  line-height: .5rem !important;
+  height: 50px;
+  color: #888;
+  font-size: .18rem;
+}
+.login-page .am-tabs-default-bar-underline {
+  width: 8em !important;
+  margin-left: 8.1%;
+  border-color: #32c5bd !important;
+}
+
+.login-page .am-tabs-tab-bar-wrap {
+  background: linear-gradient(180deg, #e5e5e5, #e5e5e5, rgba(229, 229, 229, 0)) bottom left no-repeat;
+  background-size: 100% 1px;
+}
+
+.login-page .am-tabs-default-bar-tab-active {
+  color: #32c5bd;
+}
+
+.login-page .am-list-item.am-input-item {
+  height: 50px;
+}
+
+.login-page .am-list-item .am-input-label {
+  font-size: .15rem;
+}
+
+.login-page .am-list-item .am-input-control input {
+  font-size: .15rem;
+}
+
+.login-page .am-button-primary {
+  background-color: #32c5bd;
+}
+
+.login-page .am-input-clear {
+  width: 14px !important;
+  height: 14px !important;
+  background-size: 12px auto !important;
+}
+
+.tabsContent {
+  align-items: center;
+  justify-content: center;
+}
+
+.tabsContent-desc {
+  min-height: .45rem;
+  position: relative;
+  padding: .1rem;
+  color: #888;
+  text-align: center;
+}
+
+.tabsContent-bt-box {
+  padding: 25px 15px 15px;
+}
+
+.inputItemLeft {
+  width: 74%;
+}
+
+.getCode {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  width: 26%;
+  line-height: .49rem;
+  font-size: .16rem;
+  text-align: center;
+  color: #32c5bd;
+  border-bottom: 2px solid #f9f9f9;
+  border-left: 1px solid #E5E5E5;
+}
+
+.register-agreement {
+  padding: .5em .15rem;
+  margin-top: .1rem;
+  margin-bottom: .1rem;
+  font-size: .13rem;
+}
+
+.register-agreement-desc {
+  color: #888;
+}
+
+.register-agreement-checkbox {
+  vertical-align: middle;
+  height: .14rem;
+}
+
+.register-to-login {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: .3rem;
+  z-index: 99;
+}
+
+.register a {
+  color: #586C94;
+}
+
+.register-agreement-a {
+  color: #586C94;
+}
+
+.register-tabsContent-bt-box {
+  padding: 0 0.15rem;
+}
+
+.blueC { color: #32c5bd; }
+
+.f-size-14 { font-size: 14px; }
+
+.f-size-19 { font-size: 19px; }
+
+.mb10 { margin-bottom: .1rem; }
+
+.mt10 { margin-top: .1rem; }
+
+.mt20 { margin-top: 20px; }
+
+.ml15 { margin-left: .15rem; }
+
+.mr15 { margin-right: .15rem; }
+
+.float-r { float: right; }
+
+.footer-fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
