@@ -72,7 +72,7 @@ class Login extends React.Component {
           <span><Link to="/register">新用户注册</Link></span>
           { 
             this.state.currentTab === '1' ?
-            <span className="float-r">忘记密码?</span>
+            <span className="float-r"><Link to="/findpwd">忘记密码?</Link></span>
             : <span className="float-r">联系客服</span>
           }
         </div>

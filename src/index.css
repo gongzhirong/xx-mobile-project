@@ -403,21 +403,108 @@ footer img {
   padding: 0 0.15rem;
 }
 
+.findpwdTelphone {
+  margin-top: .3rem;
+  font-size: .14rem;
+  color: #888;
+  text-align: center;
+}
+
+.findpwdDesc {
+  padding-top: .1rem;
+  font-size: .14rem;
+  padding-left: .15rem;
+  padding-bottom: .1rem;
+  color: #666;
+}
+
+.usercenter-part1 {
+  height: 1.7rem;
+  position: relative;
+}
+
+.usercenter-part1-banner {
+  height: 1.35rem;
+  position: relative;
+  background-color: #32c5bd;
+}
+
+.usercenter-go-home {
+  position: absolute;
+  width: 0.765rem;
+  height: 0.28rem;
+  background-color: #fff;
+  border-radius: .28rem 0 0 .28rem;
+  padding-left: 0.135rem;
+  padding-top: 0.075rem;
+  line-height: 1;
+  top: .2rem;
+  right: 0;
+  left: auto;
+  box-sizing: border-box;
+  color: #32c5bd;
+}
+
+.usercenter-part1-banner-infoBox {
+  padding-top: .25rem;
+  padding-left: .15rem;
+}
+
+.usercenter-infoBox-userImg {
+  width: .5rem;
+  height: .5rem;
+  margin-right: .1rem;
+}
+
+.usercenter-infoBox {
+  line-height: 1.7;
+  color: white;
+}
+
+.usercenter-infoBox-name {
+  height: 1.5em;
+  color: #fff;
+  font-size: .17rem;
+}
+
+.usercenter-haeder-menu {
+  display: flex;
+  position: absolute;
+  left: .1rem;
+  right: .1rem;
+  background-color: #fff;
+  height: .7rem;
+  border-radius: .03rem;
+  top: 1.42rem;
+}
+
+.usercenter-haeder-menu-li {
+  flex: 1;
+  text-align: center;
+  font-size: .17rem;
+}
+
 .blueC { color: #32c5bd; }
 
-.f-size-14 { font-size: 14px; }
+.f-size-14 { font-size: .14rem; }
 
-.f-size-19 { font-size: 19px; }
+.f-size-19 { font-size: .19rem; }
 
 .mb10 { margin-bottom: .1rem; }
 
 .mt10 { margin-top: .1rem; }
 
-.mt20 { margin-top: 20px; }
+.mt20 { margin-top: .2rem; }
+
+.mt30 { margin-top: .3rem; }
 
 .ml15 { margin-left: .15rem; }
 
 .mr15 { margin-right: .15rem; }
+
+.mr3 { margin-right: .03rem; }
+
+.float-l { float: left; }
 
 .float-r { float: right; }
 
