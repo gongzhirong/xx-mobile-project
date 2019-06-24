@@ -12,7 +12,7 @@ class Ones extends React.Component {
     }
     return (
       <div className='header'>
-        <Icon className='header-left' type='left' color='#ccc'/>
+        <Icon className='header-left' type='left' color='#ccc' onClick={() => { window.history.go(-1) }}/>
         <div className='header-title'>{this.props.title}</div>
         <div className="header-right">
           {headerRight}

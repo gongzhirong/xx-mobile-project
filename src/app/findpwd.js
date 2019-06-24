@@ -31,7 +31,7 @@ class Login extends React.Component {
           </div>
           <p className="findpwdTelphone">
             <span>遇到问题？请联系客服：</span>
-            <a herf="tel:4000185800">400-0185-800</a>
+            <a href='tel:4000185800'>400-0185-800</a>
           </p>
         </div>
         <WhiteSpace />
