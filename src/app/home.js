@@ -39,8 +39,13 @@ class Home extends React.Component {
           <a href="/">
             <img alt="" src={require('../images/c_tijianbaogao.png')}/>
           </a>
-          <a href="/">
+          {/* 未登录显示 */}
+          {/* <a href="/">
             <img alt="" src={require('../images/c_gerebzhongxin2.png')}/>
+          </a> */}
+          {/* 登录后显示 */}
+          <a href="#/usercenter">
+            <img alt="" src={require('../images/c_gerebzhongxin.png')}/>
           </a>
         </div>
         <div className="clearBoth"></div>
@@ -50,27 +55,27 @@ class Home extends React.Component {
             <div className="convenient-entry-head-border"></div>
             <span className="convenient-entry-header-title">便捷入口</span>
           </h3>
-          <a href="/" className="border-b border-r border-t">
+          <a href="#/intelligent" className="border-b border-r border-t">
             <span className="convenient-entry-Linefeed">
               <span>检前评估</span>
               <p className="convenient-entry-Linefeed-twoline">免费风险筛查</p>
             </span>
-            <img alt="" className="convenient-entry-img" src={require('../images/zhineng.png')}/>
+            <img alt="" className="convenient-entry-img" src={require('../images/zhineng_sml.png')}/>
           </a>
-          <a href="/" className="border-b border-t">
+          <a href="#/orderlist" className="border-b border-t">
             <p>我的订单</p>
-            <img alt="" className="convenient-entry-img" src={require('../images/dingdan.png')}/>
+            <img alt="" className="convenient-entry-img" src={require('../images/dingdan_sml.png')}/>
           </a>
-          <a href="/" className="border-r">
+          <a href="#/usercentercard" className="border-r">
             <p>我的体检卡</p>
-            <img alt="" className="convenient-entry-img" src={require('../images/tijianka.png')}/>
+            <img alt="" className="convenient-entry-img" src={require('../images/tijianka_sml.png')}/>
           </a>
           <a href="/">
             <span className="convenient-entry-Linefeed">
               <span>团检申请</span>
               <p className="convenient-entry-Linefeed-twoline">一站式团检服务</p>
             </span>
-            <img alt="" className="convenient-entry-img" src={require('../images/tongdao.png')}/>
+            <img alt="" className="convenient-entry-img" src={require('../images/tongdao_sml.png')}/>
           </a>
         </div>
         {/* 轮播图2 */}

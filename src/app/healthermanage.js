@@ -24,7 +24,7 @@ class Healthermanage extends React.Component {
             </div>
           </div>
         </div>
-        <div className="bottom-fixed-bottom register-tabsContent-bt-box">
+        <div className="bottom-fixed-bottom">
           <Button type="primary" onClick={() => { window.location.hash = "/addhealther" }}>添加家属体检人</Button>
         </div>
       </div>
