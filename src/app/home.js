@@ -36,7 +36,7 @@ class Home extends React.Component {
           <a href="/">
             <img alt="" src={require('../images/c_tijianyuyue.png')}/>
           </a>
-          <a href="/">
+          <a href="#/myreport">
             <img alt="" src={require('../images/c_tijianbaogao.png')}/>
           </a>
           {/* 未登录显示 */}
@@ -70,7 +70,7 @@ class Home extends React.Component {
             <p>我的体检卡</p>
             <img alt="" className="convenient-entry-img" src={require('../images/tijianka_sml.png')}/>
           </a>
-          <a href="/">
+          <a href="#/employers">
             <span className="convenient-entry-Linefeed">
               <span>团检申请</span>
               <p className="convenient-entry-Linefeed-twoline">一站式团检服务</p>

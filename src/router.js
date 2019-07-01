@@ -21,6 +21,8 @@ import Addhealther from './app/addhealther'
 import Intelligent from './app/intelligent'
 import Intruduce from './app/intruduce'
 import Information from './app/information'
+import Myreport from './app/myreport'
+import Employers from './app/employers'
 
 function router() {
   return (
@@ -46,6 +48,8 @@ function router() {
         <Route path='/intelligent' component={Intelligent} name="检前评估" />
         <Route path='/intruduce' component={Intruduce} name="健康评估" />
         <Route path='/information' component={Information} name="基本信息" />
+        <Route path='/myreport' component={Myreport} name="体检报告" />
+        <Route path='/employers' component={Employers} name="团检申请" />
       </Switch>
     </HashRouter>
   )
